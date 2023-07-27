@@ -1,0 +1,50 @@
+.container {
+    padding: 10px;
+  }
+  
+  .notes-container {
+    margin-top: 16px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+
+  .container {
+    text-align: center; 
+  }
+  
+  .box {
+    
+    margin: 1px;
+  }
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2eb929;
+}
+
+.button:active {
+  background-color: #1f618d;
+  transform: translateY(2px);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button {
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+}
